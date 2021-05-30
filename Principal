@@ -1,0 +1,28 @@
+#include <iostream>
+#include <stdio.h>
+int i=1;
+int vetor [40];
+using namespace std;
+float x;
+float y;
+int main()
+{ 
+while (i<=20){
+		if (i <= 2) {
+			cout << "Digite o numero :" << endl;
+			cin >> vetor[i];
+			if ((vetor[i])==0) {
+				cout << "Erro! " << endl;
+        	}
+		}
+	if (3<=i and i<=20) {
+			if (i%2==0) {
+				cout << ((vetor[i-1]) + (vetor[i-2])) << endl;
+			} else {
+				cout << ((vetor[i - 1]) - (vetor[i - 2])) << endl;
+			}
+		}
+  }
+i++;
+getchar();
+}
